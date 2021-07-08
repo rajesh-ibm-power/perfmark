@@ -7,7 +7,7 @@ arch:
 sudo: true
 
 jdk:
-  - openjdk11
+  - oraclejdk8
 
 notifications:
   email: false
