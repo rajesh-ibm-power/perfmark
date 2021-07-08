@@ -3,11 +3,9 @@ language: java
 arch:
   - amd64
   - ppc64le
-  
-sudo: true
 
 jdk:
-  - oraclejdk8
+  - openjdk11
 
 notifications:
   email: false
