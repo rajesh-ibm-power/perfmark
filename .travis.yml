@@ -10,11 +10,8 @@ jdk:
 notifications:
   email: false
 
-before_install:
- – chmod +x gradlew
- 
 before_script:
-- chmod a+x gradlew
+  - chmod a+x gradlew
 
 script: ./gradlew build
 
