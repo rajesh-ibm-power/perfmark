@@ -1,10 +1,9 @@
 language: java
 jdk:
     - openjdk15
-
-arch:
-    - amd64
-    - ppc64le
+    - openjdk6 
+    - openjdk7
+    - openjdk9
 
 install: true
 
